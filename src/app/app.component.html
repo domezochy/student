@@ -1,0 +1,8 @@
+<h1>List of Students</h1>
+<ul *ngFor="let student of students">
+  <li>name: {{ student.name }}</li>
+  <li>ID:  {{student.id }}</li>
+</ul>
+<hr>
+<app-template-driven-form></app-template-driven-form>
+<router-outlet></router-outlet>
